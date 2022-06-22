@@ -8,7 +8,7 @@ nota3= Decimal(input("Uma terceria nota? "))
 media = (nota1 + nota2 + nota3) / 3
 
 if media >= 7:
-    print('O aluno', nome, 'está aprovado. Sua média é: ', media)
+    print('O aluno {} está aprovado. Sua média é:{:.2f}' .format(nome,media))
 
 elif media <= 5:
     print('O aluno', nome, 'está reprovado. Sua média é: ', media)
