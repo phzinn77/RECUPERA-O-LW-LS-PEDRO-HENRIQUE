@@ -1,10 +1,7 @@
-from decimal import Decimal
-
-
 nome = input("Informe o nome do aluno: ")
-nota1= Decimal(input("Uma nota? "))
-nota2= Decimal(input("Uma segunda nota? "))
-nota3= Decimal(input("Uma terceria nota? "))
+nota1= float(input("Uma nota? "))
+nota2= float(input("Uma segunda nota? "))
+nota3= float(input("Uma terceria nota? "))
 media = (nota1 + nota2 + nota3) / 3
 
 if media >= 7:
